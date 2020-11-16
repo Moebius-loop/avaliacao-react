@@ -1,0 +1,204 @@
+header{
+    display:flex;
+    width:stretch;
+    height:150px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: #f48c06;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #edf2f4;
+}
+
+.caixa_menu{
+    display:flex;
+    width:40%;
+    height:stretch;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botao_menu{
+    width:100px;
+    height: 50px;
+    color: #ffba08;
+    font-family: "Roboto", cursive;
+    border-radius:30px;
+    border: none;
+    outline:none;
+}
+
+.secao_inicio{
+    display: flex;
+    width: stretch;
+    height: 700px;
+    padding-right:75px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto_inicio{
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_inicio{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+}
+
+.texto_1{
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+}
+
+.foto_inicio{
+    width:550px;
+    height:500px;
+    border-radius:0px 30px 30px 0px;
+}
+
+.secao_beneficios{
+    display: flex;
+    width: stretch;
+    height: 700px;
+    background-color: #8d99ae;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto_beneficios{
+    display: flex;
+    width: stretch;
+    height:80%;
+    margin-top:40px;
+    margin-bottom:40px;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_beneficios{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+}
+
+.conteudo_beneficios{
+    display: flex;
+    width: stretch;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.beneficio_caixa{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    overflow-wrap: break-word;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_caixa_beneficio{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.texto_caixa_beneficio{
+    font-family: 'Roboto', cursive;
+    font-size: 18px;
+}
+
+.foto_beneficios{
+    width:550px;
+    height:500px;
+    border-radius:30px 0px 0px 30px;
+}
+
+.secao_sobre{
+    display: flex;
+    width: stretch;
+    height: 700px;
+    padding-right:50px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto_sobre{
+    width:550px;
+    height:500px;
+    border-radius:0px 30px 30px 0px;
+}
+
+.texto_sobre{
+    display:flex;
+    width:350px;
+    height:stretch;
+    overflow-wrap: break-word;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_sobre{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    overflow-wrap: break-word;
+}
+
+.texto_5{
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+}
+
+footer{
+    display:flex;
+    width:stretch;
+    height:200px;
+    background-color: #8d99ae;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa_contatos{
+    display:flex;
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.caixa_rede_social{
+    display:flex;
+    width: 400px;;
+    height: stretch;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icone{
+    font-size:40px;
+    color: #FFF;
+}
